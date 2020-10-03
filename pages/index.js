@@ -1,65 +1,51 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
 
 export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    return (
+        <div>
+            <Head>
+                <title>YouTube For Developers</title>
+                <link rel="icon" href="/favicon.ico" />
+                <link
+                    href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+                    rel="stylesheet"
+                />
+                <script
+                    src="https://kwes.io/v2/kwes-script.js"
+                    charset="utf-8"
+                ></script>
+            </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+            <main className="max-w-2xl text-center">
+                <h1 className="text-5xl uppercase text-center text-gray-900">
+                    YouTube For Developers
+                </h1>
+                <p className="text-2xl text-center mb-8 text-gray-700">
+                    Learn how to start a YouTube channel today and why it will
+                    take your career to the next level. Launching on October
+                    7th!
+                </p>
+                <a
+                    href="https://learn.jamesqquick.com/developers-guide-to-starting-a-youtube-channel"
+                    taget="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-brand px-6 py-4 uppercase text-red-100 rounded-md"
+                >
+                    Pre-order here
+                </a>
+                {/* <form
+                    className="kwes-form"
+                    action="https://kwes.io/api/foreign/forms/bnbThzvAUYpTc8EJRqyO"
+                >
+                    <label htmlFor="name">Your Name (optional)</label>
+                    <input type="text" name="name" rules="max:255" />
+                    <label htmlFor="email">Your Email (optional)</label>
+                    <input type="text" name="email" />
+                    <label htmlFor="question">Your Question</label>
+                    <textarea type="text" name="question" />
+                    <button type="submit">Submit</button>
+                </form> */}
+            </main>
         </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
+    );
 }
