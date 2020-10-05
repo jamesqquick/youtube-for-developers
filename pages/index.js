@@ -10,11 +10,7 @@ export default function Home() {
                     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:ital,wght@0,100;1,100&display=swap"
                     rel="stylesheet"
                 />
-                <script
-                    src="https://kwes.io/v2/kwes-script.js"
-                    charSet="utf-8"
-                    defer
-                ></script>
+                <script src="https://kwes.io/v2/kwes-script.js" defer></script>
             </Head>
 
             <main className="">
@@ -50,16 +46,6 @@ export default function Home() {
                                 </small>
                             </div>
                         </div>
-
-                        {/* <!-- <form
-                    className="kwes-form"
-                    action="https://kwes.io/api/foreign/forms/KvjryJoFhoWOgonQncMW"
-                >
-                    <label for="name">Your Name</label>
-                    <input type="text" name="name" rules="required|max:255" />
-
-                    <button type="submit">Submit</button>
-                </form> --> */}
                     </section>
                     <section className="bg-gray-200">
                         <div className="container mx-auto max-w-6xl py-20 px-6 md:px-20">
@@ -183,6 +169,80 @@ export default function Home() {
                                     making money
                                 </li>
                             </ul>
+                        </div>
+                    </section>
+                    {/* <section className="container mx-auto max-w-6xl py-20 px-6 md:px-20">
+                        <h1 className="text-4xl font-bold leading-snug text-gray-800">
+                            Have a Burning Question?
+                        </h1>
+                        <p>
+                            Have a question that you think isn't covered in the
+                            book? Feel free to ask below!
+                        </p>
+                        <form
+                            className="kwes-form"
+                            action="https://kwes.io/api/foreign/forms/1Vl8BG1TEQPhD8y9J7F5"
+                        >
+                            <div class="mb-4">
+                                <label
+                                    class="block text-gray-700 text-sm font-bold mb-2"
+                                    for="username"
+                                >
+                                    Name (optional)
+                                </label>
+                                <input
+                                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="name"
+                                    type="text"
+                                    placeholder="Name"
+                                />
+                            </div>
+                            <div class="mb-4">
+                                <label
+                                    class="block text-gray-700 text-sm font-bold mb-2"
+                                    for="email"
+                                >
+                                    Email (optional)
+                                </label>
+                                <input
+                                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="email"
+                                    type="text"
+                                    placeholder="Email"
+                                    rules="email"
+                                />
+                            </div>
+                            <div class="mb-4">
+                                <label
+                                    class="block text-gray-700 text-sm font-bold mb-2"
+                                    for="question"
+                                >
+                                    Question
+                                </label>
+                                <input
+                                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="question"
+                                    type="text"
+                                    placeholder="What's on your mind?"
+                                    rules="required"
+                                />
+                            </div>
+                            <button
+                                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                                type="button"
+                            >
+                                Submit
+                            </button>
+                        </form>
+                    </section> */}
+                    <section className="bg-brand">
+                        <div className="container mx-auto max-w-6xl py-20 px-4 md:px-20">
+                            <p className="text-2xl text-center text-brand-300 mb-2">
+                                Want to break out of tutorial hell?
+                            </p>
+                            <p class="text-4xl md:text-6xl font-bold text-center text-brand-100">
+                                BUILD THE TUTORIAL YOURSELF!
+                            </p>
                         </div>
                     </section>
                     <section className="container mx-auto max-w-6xl py-20 px-6 md:px-20">
