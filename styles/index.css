@@ -5,3 +5,18 @@
 * {
     font-family: 'Poppins';
 }
+
+li {
+    @apply font-bold flex items-center text-xl mb-4 text-gray-700 leading-relaxed;
+}
+
+p {
+    @apply text-lg mb-8 text-gray-700 leading-relaxed font-light;
+}
+a {
+    @apply text-brand font-bold underline;
+}
+
+strong {
+    @apply font-bold;
+}
