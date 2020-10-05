@@ -253,7 +253,7 @@ export default function Home() {
                                         <p>
                                             You can login at{' '}
                                             <a
-                                                href="learn.jamesqquick.com"
+                                                href="https://www.learn.jamesqquick.com"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 className=""
