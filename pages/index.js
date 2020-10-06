@@ -1,6 +1,12 @@
 import Head from 'next/head';
-
+import { useEffect } from 'react';
 export default function Home() {
+    useEffect(() => {
+        const kwesScript = document.createElement('script');
+        kwesScript.setAttribute('src', 'https://kwes.io/v2/kwes-script.js');
+        kwesScript.setAttribute('defer', 'defer');
+        document.head.appendChild(kwesScript);
+    }, []);
     return (
         <div>
             <Head>
@@ -10,7 +16,6 @@ export default function Home() {
                     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:ital,wght@0,100;1,100&display=swap"
                     rel="stylesheet"
                 />
-                <script src="https://kwes.io/v2/kwes-script.js" defer></script>
             </Head>
 
             <main className="">
@@ -171,7 +176,7 @@ export default function Home() {
                             </ul>
                         </div>
                     </section>
-                    {/* <section className="container mx-auto max-w-6xl py-20 px-6 md:px-20">
+                    <section className="container mx-auto max-w-6xl py-20 px-6 md:px-20">
                         <h1 className="text-4xl font-bold leading-snug text-gray-800">
                             Have a Burning Question?
                         </h1>
@@ -181,7 +186,9 @@ export default function Home() {
                         </p>
                         <form
                             className="kwes-form"
-                            action="https://kwes.io/api/foreign/forms/1Vl8BG1TEQPhD8y9J7F5"
+                            action="https://kwes.io/api/foreign/forms/efFnn0v1ODclogPLTk0c"
+                            no-reload
+                            success-message="Thanks for submitting!"
                         >
                             <div class="mb-4">
                                 <label
@@ -195,6 +202,7 @@ export default function Home() {
                                     id="name"
                                     type="text"
                                     placeholder="Name"
+                                    name="name"
                                 />
                             </div>
                             <div class="mb-4">
@@ -210,6 +218,7 @@ export default function Home() {
                                     type="text"
                                     placeholder="Email"
                                     rules="email"
+                                    name="email"
                                 />
                             </div>
                             <div class="mb-4">
@@ -222,6 +231,7 @@ export default function Home() {
                                 <input
                                     class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                     id="question"
+                                    name="question"
                                     type="text"
                                     placeholder="What's on your mind?"
                                     rules="required"
@@ -229,12 +239,12 @@ export default function Home() {
                             </div>
                             <button
                                 class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                                type="button"
+                                type="submit"
                             >
                                 Submit
                             </button>
                         </form>
-                    </section> */}
+                    </section>
                     <section className="bg-brand">
                         <div className="container mx-auto max-w-6xl py-20 px-4 md:px-20">
                             <p className="text-2xl text-center text-brand-300 mb-2">
