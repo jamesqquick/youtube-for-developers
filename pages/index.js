@@ -46,9 +46,6 @@ export default function Home() {
                                 >
                                     Buy for $9.99
                                 </a>
-                                <small className="text-gray-700 font-bold block">
-                                    Launches on October 7th, 2020
-                                </small>
                             </div>
                         </div>
                     </section>
@@ -281,9 +278,6 @@ export default function Home() {
                                 >
                                     Buy for $9.99
                                 </a>
-                                <small className="text-gray-700 font-bold block">
-                                    Launches on October 7th, 2020
-                                </small>
                             </div>
                         </div>
                     </section>
