@@ -20,3 +20,7 @@ a {
 strong {
     @apply font-bold;
 }
+
+.testimonial-img {
+    max-height: 200px;
+}
