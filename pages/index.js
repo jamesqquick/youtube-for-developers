@@ -24,48 +24,42 @@ export default function Home() {
                     <Hero title="Developer's Guide to Starting a YouTube Channel" />
                 </section>
                 <section className="text-center p-10">
-
-                <a
-                    href="https://www.producthunt.com/posts/youtube-for-developers-ebook?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-youtube-for-developers-ebook"
-                    target="_blank"
-                >
-                    <img
-                        src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=269994&theme=light"
-                        alt="YouTube For Developers Ebook - Create content that will take your career to the next level! | Product Hunt"
-                        style={{ width: '250px', height: '54px' }}
-                        className="mx-auto"
-                    />
-                </a>
+                    <a
+                        href="https://www.producthunt.com/posts/youtube-for-developers-ebook?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-youtube-for-developers-ebook"
+                        target="_blank"
+                    >
+                        <img
+                            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=269994&theme=light"
+                            alt="YouTube For Developers Ebook - Create content that will take your career to the next level! | Product Hunt"
+                            style={{ width: '250px', height: '54px' }}
+                            className="mx-auto"
+                        />
+                    </a>
                 </section>
                 <section className="bg-gray-200">
                     <ResumeMissingSomething />
                 </section>
+
+                <WhatYoullLearn />
+
                 <section className="container mx-auto max-w-6xl py-20 px-6 md:px-20 ">
                     <YouTubeForMe />
                 </section>
-                <section className="bg-gray-200">
-                    <WhatYoullLearn />
-                </section>
-                <section className="container mx-auto max-w-6xl py-20 px-6 md:px-20">
-                    <Questions />
-                </section>
-
-                <section className="bg-brand">
+                <section className="bg-brand-800">
                     <div className="container mx-auto max-w-6xl py-20 px-4 md:px-20">
-                        <p className="text-2xl text-center text-brand-300 mb-2">
-                            Want to break out of tutorial hell?
+                        <p className="text-4xl text-center text-brand-200 mb-0">
+                            Want to break out of tutorial hell...?
                         </p>
                         <p class="text-4xl md:text-6xl font-bold text-center text-brand-100">
                             BUILD THE TUTORIAL YOURSELF!
                         </p>
                     </div>
                 </section>
-                <section className="container mx-auto max-w-6xl py-20 px-6 md:px-20">
-                    <Testimonials />
-                </section>
-                <section className="bg-gray-200">
-                    <FAQs />
-                </section>
+
+                <Testimonials />
+
+                <FAQs />
+
                 <section className="container mx-auto max-w-6xl py-20 px-6 md:px-20">
                     <Hero />
                 </section>
@@ -74,6 +68,9 @@ export default function Home() {
                     <div className="container mx-auto max-w-6xl py-20 px-6 md:px-20">
                         <Instructor />
                     </div>
+                </section>
+                <section className="container mx-auto max-w-6xl py-20 px-6 md:px-20">
+                    <Questions />
                 </section>
             </main>
         </div>

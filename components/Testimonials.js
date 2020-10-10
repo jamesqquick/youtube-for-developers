@@ -14,26 +14,39 @@ export default function Testimonials() {
         },
     ];
     return (
-        <div>
-            <h1 className="text-4xl font-bold leading-snug text-gray-800 mb-6">
-                Testimonials
-            </h1>
-            {quotes.map((testimonial) => (
-                <div className="md:flex space-x-10 items-center mb-10">
-                    <img
-                        src={testimonial.img}
-                        alt="YouTube For Developers Cover Image"
-                        className="rounded-full shadow-lg mx-auto mb-10 md:mb-0 testimonial-img"
-                        id="coverImage"
-                    />
-                    <div className="">
-                        <h2 className="text-2xl font-bold leading-snug text-gray-800">
-                            {testimonial.name}
-                        </h2>
-                        <p>{testimonial.quote}</p>
+        <div className="xl:flex items-stretch pt-24 pb-12 xl:pb-0 bg-gray-300">
+            <div className="text-center xl:w-1/3 flex relative items-center justify-center xl:py-24  ">
+                <h1 className="text-4xl uppercase font-bold leading-snug text-gray-800 mb-12 xl:mb-0 xl:p-4">
+                    What People Are Saying
+                </h1>
+                <div className="absolute  w-48 xl:h-full right-0 transform translate-x-24"></div>
+            </div>
+            <div className=" px-8 xl:py-24 xl:w-2/3 z-10 space-y-12 relative">
+                {quotes.map((testimonial) => (
+                    <div className="md:flex space-x-10 items-center border p-8 shadow-2xl rounded-lg bg-gray-100">
+                        <img
+                            src={testimonial.img}
+                            alt="YouTube For Developers Cover Image"
+                            className="rounded-full shadow-lg mx-auto mb-10 md:mb-0 testimonial-img"
+                            id="coverImage"
+                        />
+                        <div className="">
+                            <h2 className="text-2xl font-bold leading-snug text-gray-800 mb-2">
+                                {testimonial.name}
+                            </h2>
+                            <p className="relative italic mb-4">
+                                <span className="absolute top-0 left-0 transform -translate-x-10 text-brand-700 -translate-y-4 text-6xl font-bold">
+                                    "
+                                </span>
+                                {testimonial.quote}
+                                <span className="absolute  transform text-brand-700 -translate-y-6 text-6xl font-bold">
+                                    "
+                                </span>
+                            </p>
+                        </div>
                     </div>
-                </div>
-            ))}
+                ))}
+            </div>
         </div>
     );
 }

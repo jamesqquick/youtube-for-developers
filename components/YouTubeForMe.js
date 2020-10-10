@@ -30,10 +30,15 @@ export default function YouTubeForMe() {
                 opportunities, but I don't think the following would have been
                 possible without it.
             </p>
-            <p>
-                Developer Advocate at Auth0 Programming Bootcamp Instructor
-                Entrepreneur (selling courses, freelance video creation, etc.)
-            </p>
+            <ul>
+                <li>Developer Advocate at Auth0 </li>
+                <li>Programming Bootcamp Instructor</li>
+
+                <li>
+                    Entrepreneur (courses, videos,
+                    etc.)
+                </li>
+            </ul>
         </div>
     );
 }
