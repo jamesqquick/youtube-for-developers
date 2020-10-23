@@ -50,7 +50,7 @@ export default function Home() {
                         <p className="text-4xl text-center text-brand-200 mb-0">
                             Want to break out of tutorial hell...?
                         </p>
-                        <p class="text-4xl md:text-6xl font-bold text-center text-brand-100">
+                        <p className="text-4xl md:text-6xl font-bold text-center text-brand-100">
                             BUILD THE TUTORIAL YOURSELF!
                         </p>
                     </div>
@@ -69,9 +69,9 @@ export default function Home() {
                         <Instructor />
                     </div>
                 </section>
-                <section className="container mx-auto max-w-6xl py-20 px-6 md:px-20">
+                {/* <section className="container mx-auto max-w-6xl py-20 px-6 md:px-20">
                     <Questions />
-                </section>
+                </section> */}
             </main>
         </div>
     );

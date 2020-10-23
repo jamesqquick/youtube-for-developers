@@ -22,30 +22,30 @@ export default function Questions() {
                 no-reload
                 success-message="Thanks for submitting!"
             >
-                <div class="mb-4">
+                <div className="mb-4">
                     <label
-                        class="block text-gray-700 text-sm font-bold mb-2"
+                        className="block text-gray-700 text-sm font-bold mb-2"
                         htmlFor="username"
                     >
                         Name (optional)
                     </label>
                     <input
-                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                         id="name"
                         type="text"
                         placeholder="Name"
                         name="name"
                     />
                 </div>
-                <div class="mb-4">
+                <div className="mb-4">
                     <label
-                        class="block text-gray-700 text-sm font-bold mb-2"
+                        className="block text-gray-700 text-sm font-bold mb-2"
                         htmlFor="email"
                     >
                         Email (optional)
                     </label>
                     <input
-                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                         id="email"
                         type="text"
                         placeholder="Email"
@@ -53,15 +53,15 @@ export default function Questions() {
                         name="email"
                     />
                 </div>
-                <div class="mb-4">
+                <div className="mb-4">
                     <label
-                        class="block text-gray-700 text-sm font-bold mb-2"
+                        className="block text-gray-700 text-sm font-bold mb-2"
                         htmlFor="question"
                     >
                         Question
                     </label>
                     <input
-                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                         id="question"
                         name="question"
                         type="text"
@@ -70,7 +70,7 @@ export default function Questions() {
                     />
                 </div>
                 <button
-                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                     type="submit"
                 >
                     Submit
