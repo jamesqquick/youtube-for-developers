@@ -18,19 +18,23 @@ export default function ResumeMissingSomething() {
                             <span className="bg-blue-700 text-blue-100 py-2 px-4 rounded-l-md">
                                 1.
                             </span>
-                            <p className="mb-0">You're a strong communicator</p>
+                            <p className="mb-0 font-bold">
+                                You're a strong communicator
+                            </p>
                         </li>
                         <li className="border shadow-md rounded-md flex items-center space-x-2">
                             <span className="bg-blue-700 text-blue-100 py-2 px-4 rounded-l-md">
                                 2.
                             </span>
-                            <p className="mb-0">You have technical knowledge</p>
+                            <p className="mb-0 font-bold">
+                                You have technical knowledge
+                            </p>
                         </li>
                         <li className="border shadow-md rounded-md flex items-center space-x-2">
                             <span className="bg-blue-700 text-blue-100 py-2 px-4 rounded-l-md">
                                 3.
                             </span>
-                            <p className="mb-0">
+                            <p className="mb-0 font-bold">
                                 You can teach and lead others
                             </p>
                         </li>

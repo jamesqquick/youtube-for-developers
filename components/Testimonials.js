@@ -22,8 +22,11 @@ export default function Testimonials() {
                 <div className="absolute  w-48 xl:h-full right-0 transform translate-x-24"></div>
             </div>
             <div className=" px-8 xl:py-24 xl:w-2/3 z-10 space-y-12 relative">
-                {quotes.map((testimonial) => (
-                    <div className="md:flex space-x-10 items-center border p-8 shadow-2xl rounded-lg bg-gray-100">
+                {quotes.map((testimonial, i) => (
+                    <div
+                        className="md:flex space-x-10 items-center border p-8 shadow-2xl rounded-lg bg-gray-100"
+                        key={i}
+                    >
                         <img
                             src={testimonial.img}
                             alt="YouTube For Developers Cover Image"
