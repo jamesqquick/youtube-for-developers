@@ -50,7 +50,7 @@ export default function Home() {
                         <p className="text-4xl text-center text-brand-200 mb-0">
                             Want to break out of tutorial hell...?
                         </p>
-                        <p className="text-4xl md:text-6xl font-bold text-center text-brand-100">
+                        <p className="text-4xl md:text-6xl text-center text-brand-100">
                             BUILD THE TUTORIAL YOURSELF!
                         </p>
                     </div>
