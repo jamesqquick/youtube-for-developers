@@ -34,7 +34,7 @@ export default function FAQs() {
                                 <p>
                                     You can login at{' '}
                                     <a
-                                        href="https://www.learn.jamesqquick.com"
+                                        href="https://learn.jamesqquick.com"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className=""
